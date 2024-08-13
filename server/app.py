@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_migrate import Migrate
-from models import db, User, Department, Employee, LeaveAllocation, LeaveRequest
+from models import db, Department, Employee, LeaveAllocation, LeaveRequest
 
 
 app = Flask(__name__)
